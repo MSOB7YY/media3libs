@@ -1,14 +1,14 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: CI (Auxio)
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ "auxio" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "auxio" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -30,8 +30,8 @@ jobs:
       - name: Checkout Media3
         uses: actions/checkout@v4
         with:
-          repository: MSOB7YY/media
-          ref: ogg-1.9.0
+          repository: OxygenCobalt/media
+          ref: release
           path: media
 
       - uses: actions/setup-java@v4
