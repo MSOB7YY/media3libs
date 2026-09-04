@@ -37,7 +37,7 @@ jobs:
       - name: Checkout Media3
         uses: actions/checkout@v4
         with:
-          repository: androidx/media
+          repository: MSOB7YY/media
           ref: ${{ inputs.ref }}
           path: media
           fetch-depth: 1
