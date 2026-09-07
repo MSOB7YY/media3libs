@@ -19,7 +19,7 @@ echo $ANDROID_NDK_HOME
 echo $NDK_PATH
 ANDROID_ABI=21
 HOST_PLATFORM="linux-x86_64"
-ENABLED_DECODERS=(vorbis opus flac alac pcm_mulaw pcm_alaw mp3 aac ac3 eac3 dca mlp truehd)
+ENABLED_DECODERS=(vorbis opus flac alac pcm_mulaw pcm_alaw mp3 aac ac3 eac3 dca mlp truehd hevc h264 vp8 vp9 mpeg4 mpeg2video mpeg1video msmpeg4v2 msmpeg4v3 h263 vc1 mjpeg theora flv)
 
 
 echo "NDK path is ${NDK_PATH}"
@@ -51,7 +51,7 @@ COMMON_OPTIONS="
     --disable-everything
     --disable-avdevice
     --disable-avformat
-    --disable-swscale
+    --enable-swscale
     --disable-postproc
     --disable-avfilter
     --disable-symver
