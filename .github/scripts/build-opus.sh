@@ -9,7 +9,7 @@ GD_PATH="${MEDIA3_PATH}/libraries/decoder_opus/build.gradle"
 #Fetch libopus:
 
 cd "${OPUS_MODULE_PATH}/jni" 
-git clone --depth=1 https://gitlab.xiph.org/xiph/opus.git libopus
+git clone --depth=1 -b v1.6.1 https://gitlab.xiph.org/xiph/opus.git libopus
 
 ## Enable publishing
 
