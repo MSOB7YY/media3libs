@@ -19,7 +19,7 @@ echo $ANDROID_NDK_HOME
 echo $NDK_PATH
 ANDROID_ABI=21
 HOST_PLATFORM="linux-x86_64"
-ENABLED_DECODERS=(vorbis opus flac alac ape wavpack pcm_mulaw pcm_alaw mp3 aac ac3 eac3 dca mlp truehd hevc h264 vp8 vp9 mpeg4 mpeg2video mpeg1video msmpeg4v2 msmpeg4v3 h263 vc1 mjpeg theora flv)
+ENABLED_DECODERS=(vorbis opus flac alac ape wavpack wmav1 wmav2 wmapro wmalossless pcm_mulaw pcm_alaw mp3 aac ac3 eac3 dca mlp truehd hevc h264 vp8 vp9 mpeg4 mpeg2video mpeg1video msmpeg4v2 msmpeg4v3 h263 vc1 wmv1 wmv2 wmv3 mjpeg theora flv)
 
 
 echo "NDK path is ${NDK_PATH}"
